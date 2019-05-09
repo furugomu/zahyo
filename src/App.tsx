@@ -28,7 +28,10 @@ const App = () => {
   }, [json]);
   return (
     <div>
-      <p>JSON を変更してボタンを押すと図が更新されます。</p>
+      <p>
+        JSON を変更してボタンを押すと図が更新されます。
+        <a href="https://github.com/furugomu/zahyo">github</a>
+      </p>
       <div>
         <svg width={512} height={512} viewBox="0 0 512 512">
           <rect
@@ -64,7 +67,7 @@ const App = () => {
           rows={10}
         />
         <div>
-          <button onClick={parse}>更新</button>
+          <button onClick={parse}>更新2</button>
         </div>
       </div>
     </div>
